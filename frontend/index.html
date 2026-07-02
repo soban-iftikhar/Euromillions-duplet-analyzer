@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EuroMillions Duplet Analyzer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>EuroMillions Duplet Analyzer</h1>
+  <p class="subtitle">
+    Enter the numbers from a draw. The tool builds every possible pair from
+    them and checks which pairs have shown up before in the historical data
+    from
+    <a href="https://lottery.merseyworld.com/Euro/Analysis/Pairs.html" target="_blank" rel="noopener">
+      lottery.merseyworld.com
+    </a>.
+  </p>
+
+  <section class="panel">
+    <h2>Data source</h2>
+    <div id="status-box">Loading status...</div>
+    <button id="refresh-btn">Refresh data now (scrape live site)</button>
+  </section>
+
+  <section class="panel">
+    <h2>Enter numbers</h2>
+    <label for="numbers-input">
+      Numbers (comma or space separated, e.g. <code>7 14 28 42 45</code>)
+    </label>
+    <input type="text" id="numbers-input" placeholder="7 14 28 42 45">
+
+    <div class="radio-group">
+      <label>
+        <input type="radio" name="data-mode" value="stored" checked>
+        Use stored data
+      </label>
+      <label>
+        <input type="radio" name="data-mode" value="fresh">
+        Scrape fresh data before analyzing
+      </label>
+    </div>
+
+    <button id="analyze-btn">Analyze</button>
+    <div id="error-box" class="error"></div>
+  </section>
+
+  <section class="panel" id="results-section" hidden>
+    <h2>Results</h2>
+
+    <div class="results-columns">
+      <div class="results-col">
+        <h3 id="generated-heading">All generated duplets</h3>
+        <table id="generated-table">
+          <thead><tr><th>Pair</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="results-col">
+        <h3 id="matched-heading">Matches found in historical data</h3>
+        <table id="matched-table">
+          <thead><tr><th>Pair</th><th>Times drawn</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <p class="note" id="unmatched-note"></p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
