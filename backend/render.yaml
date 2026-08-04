@@ -8,3 +8,7 @@ services:
     envVars:
       - key: DB_PATH
         value: /opt/render/project/src/data.db
+      - key: SCRAPER_PROXY_API_KEY
+        sync: false  # set this manually in the Render dashboard — see README
+      - key: IMPORT_SECRET
+        sync: false  # optional fallback, see README

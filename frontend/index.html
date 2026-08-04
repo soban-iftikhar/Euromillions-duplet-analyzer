@@ -3,73 +3,85 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EuroMillions Duplet Analyzer</title>
+<title>EuroMillions Duplet Check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-  <h1>EuroMillions Duplet Analyzer</h1>
-  <p class="subtitle">
-    Enter the numbers from a draw. The tool builds every possible pair from
-    them and checks which pairs have shown up before in the historical data
-    from
-    <a href="https://lottery.merseyworld.com/Euro/Analysis/Pairs.html" target="_blank" rel="noopener">
-      lottery.merseyworld.com
-    </a>.
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>🍀&nbsp; GOOD LUCK &nbsp;🎰&nbsp; CHECK YOUR NUMBERS &nbsp;🎉&nbsp; EUROMILLIONS DUPLET CHECK &nbsp;✨&nbsp; MAY THE ODDS BE EVER IN YOUR FAVOR &nbsp;🎱&nbsp; </span>
+    <span>🍀&nbsp; GOOD LUCK &nbsp;🎰&nbsp; CHECK YOUR NUMBERS &nbsp;🎉&nbsp; EUROMILLIONS DUPLET CHECK &nbsp;✨&nbsp; MAY THE ODDS BE EVER IN YOUR FAVOR &nbsp;🎱&nbsp; </span>
+  </div>
+</div>
+
+<main class="page">
+  <div class="ticket" id="ticket">
+
+    <header class="ticket-head">
+      <div class="badge-spin" aria-hidden="true">
+        <svg viewBox="0 0 100 100" class="badge-svg">
+          <defs>
+            <path id="circlePath" d="M 50,50 m -38,0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0" />
+          </defs>
+          <text font-size="7.2" letter-spacing="2" fill="#C99A2E">
+            <textPath href="#circlePath">★ LUCKY DUPLET CHECK ★ GOOD LUCK ★ LUCKY DUPLET CHECK ★ GOOD LUCK </textPath>
+          </text>
+        </svg>
+        <span class="badge-center">🍀</span>
+      </div>
+      <h1>Duplet Check</h1>
+      <p class="tagline">Cross-reference draw numbers against historical EuroMillions pair data</p>
+    </header>
+
+    <div class="status-line" id="status-line">Checking data on file&hellip;</div>
+
+    <div class="field">
+      <label for="numbers-input">Numbers</label>
+      <input
+        type="text"
+        id="numbers-input"
+        inputmode="numeric"
+        placeholder="7 14 28 42 45"
+        autocomplete="off"
+      >
+      <div class="ball-row" id="ball-preview" aria-hidden="true"></div>
+    </div>
+
+    <button id="analyze-btn" class="stamp-btn">
+      <span>🎲 Check pairs</span>
+    </button>
+
+    <p class="error" id="error-box"></p>
+
+    <div class="perforation" aria-hidden="true"></div>
+
+    <section class="receipt" id="receipt" hidden>
+      <div class="receipt-summary" id="receipt-summary"></div>
+      <div class="receipt-list" id="receipt-list"></div>
+      <p class="receipt-footnote" id="receipt-footnote"></p>
+    </section>
+
+    <p class="receipt-placeholder" id="receipt-placeholder">
+      Enter numbers above and check pairs to see results here. 🍀
+    </p>
+
+  </div>
+
+  <p class="source-line">
+    Historical data from
+    <a href="https://lottery.merseyworld.com/Euro/Analysis/Pairs.html" target="_blank" rel="noopener">lottery.merseyworld.com</a>
   </p>
 
-  <section class="panel">
-    <h2>Data source</h2>
-    <div id="status-box">Loading status...</div>
-    <button id="refresh-btn">Refresh data now (scrape live site)</button>
-  </section>
-
-  <section class="panel">
-    <h2>Enter numbers</h2>
-    <label for="numbers-input">
-      Numbers (comma or space separated, e.g. <code>7 14 28 42 45</code>)
-    </label>
-    <input type="text" id="numbers-input" placeholder="7 14 28 42 45">
-
-    <div class="radio-group">
-      <label>
-        <input type="radio" name="data-mode" value="stored" checked>
-        Use stored data
-      </label>
-      <label>
-        <input type="radio" name="data-mode" value="fresh">
-        Scrape fresh data before analyzing
-      </label>
-    </div>
-
-    <button id="analyze-btn">Analyze</button>
-    <div id="error-box" class="error"></div>
-  </section>
-
-  <section class="panel" id="results-section" hidden>
-    <h2>Results</h2>
-
-    <div class="results-columns">
-      <div class="results-col">
-        <h3 id="generated-heading">All generated duplets</h3>
-        <table id="generated-table">
-          <thead><tr><th>Pair</th></tr></thead>
-          <tbody></tbody>
-        </table>
-      </div>
-
-      <div class="results-col">
-        <h3 id="matched-heading">Matches found in historical data</h3>
-        <table id="matched-table">
-          <thead><tr><th>Pair</th><th>Times drawn</th></tr></thead>
-          <tbody></tbody>
-        </table>
-        <p class="note" id="unmatched-note"></p>
-      </div>
-    </div>
-  </section>
-</div>
+  <p class="credit-line">
+    For analysis purposes only &mdash; built on publicly available historical draw data.<br>
+    Made by <strong>Soban Iftikhar</strong> &middot;
+    <a href="mailto:sobaniftikhar1098@gmail.com">sobaniftikhar1098@gmail.com</a>
+  </p>
+</main>
 
 <script src="config.js"></script>
 <script src="app.js"></script>

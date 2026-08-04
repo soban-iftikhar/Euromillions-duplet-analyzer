@@ -1,16 +1,17 @@
+import os
 from itertools import combinations
 from typing import Optional
-import os
-import uvicorn
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 import database
-from scraper import scrape_pairs
+from scraper import scrape_pairs, PairRecord, FrequencyBand
 
 app = FastAPI(title="EuroMillions Duplet Analyzer")
+
+IMPORT_SECRET = os.environ.get("IMPORT_SECRET")
 
 # Allow the frontend (any origin, since this is a tiny 1-2 user internal tool).
 # Tighten this to your actual Vercel URL if you want it locked down.
@@ -27,6 +28,28 @@ database.init_db()
 class AnalyzeRequest(BaseModel):
     numbers: list[int] = Field(..., min_length=2, description="Numbers to combine into duplets")
     use_fresh: bool = Field(False, description="If true, re-scrape the source site before analyzing")
+
+
+class ImportPair(BaseModel):
+    num1: int
+    num2: int
+    frequency: int
+
+
+class ImportBand(BaseModel):
+    frequency: int
+    count: int
+    percentage: float
+    pairs_listed: bool
+
+
+class ImportRequest(BaseModel):
+    secret: str
+    pairs: list[ImportPair]
+    bands: list[ImportBand]
+    scraped_at: str
+    note: Optional[str] = None
+    source_url: Optional[str] = None
 
 
 @app.get("/api/status")
@@ -46,7 +69,15 @@ def scrape():
     try:
         result = scrape_pairs()
     except Exception as exc:  # noqa: BLE001
-        raise HTTPException(status_code=502, detail=f"Failed to scrape source site: {exc}")
+        detail = f"Failed to scrape source site: {exc}"
+        if "403" in str(exc):
+            detail += (
+                " — this is very likely the source site's Cloudflare protection blocking "
+                "requests from cloud/hosting IP ranges (Render, AWS, etc.), not a code bug. "
+                "Use the local scrape-and-push script instead (see README) to update this "
+                "backend's data from a normal residential IP."
+            )
+        raise HTTPException(status_code=502, detail=detail)
 
     database.save_scrape(
         pairs=result.pairs,
@@ -60,6 +91,40 @@ def scrape():
         "pair_count": len(result.pairs),
         "band_count": len(result.bands),
         "note": result.note,
+    }
+
+
+@app.post("/api/import")
+def import_data(req: ImportRequest):
+    """
+    Accepts pre-scraped data (produced locally, e.g. via scripts/local_scrape_and_push.py)
+    and stores it. Exists because the live site blocks requests from most cloud hosting
+    IP ranges, so scraping directly from the deployed backend often isn't possible.
+    """
+    if not IMPORT_SECRET:
+        raise HTTPException(
+            status_code=500,
+            detail="IMPORT_SECRET is not configured on the server. Set it as an env var first.",
+        )
+    if req.secret != IMPORT_SECRET:
+        raise HTTPException(status_code=403, detail="Invalid secret.")
+
+    pairs = [PairRecord(p.num1, p.num2, p.frequency) for p in req.pairs]
+    bands = [
+        FrequencyBand(b.frequency, b.count, b.percentage, b.pairs_listed) for b in req.bands
+    ]
+
+    database.save_scrape(
+        pairs=pairs,
+        bands=bands,
+        scraped_at=req.scraped_at,
+        note=req.note,
+        source_url=req.source_url,
+    )
+    return {
+        "scraped_at": req.scraped_at,
+        "pair_count": len(pairs),
+        "band_count": len(bands),
     }
 
 
@@ -111,7 +176,3 @@ def analyze(req: AnalyzeRequest):
             "pair_count": int(meta.get("pair_count", 0)),
         },
     }
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
-    uvicorn.run("main:app", host="0.0.0.0", port=port)
