@@ -1,0 +1,3503 @@
+{
+  "pairs": [
+    {
+      "num1": 4,
+      "num2": 23,
+      "frequency": 29
+    },
+    {
+      "num1": 1,
+      "num2": 48,
+      "frequency": 28
+    },
+    {
+      "num1": 10,
+      "num2": 45,
+      "frequency": 28
+    },
+    {
+      "num1": 15,
+      "num2": 28,
+      "frequency": 28
+    },
+    {
+      "num1": 19,
+      "num2": 37,
+      "frequency": 28
+    },
+    {
+      "num1": 23,
+      "num2": 24,
+      "frequency": 28
+    },
+    {
+      "num1": 23,
+      "num2": 37,
+      "frequency": 28
+    },
+    {
+      "num1": 39,
+      "num2": 44,
+      "frequency": 28
+    },
+    {
+      "num1": 17,
+      "num2": 35,
+      "frequency": 27
+    },
+    {
+      "num1": 17,
+      "num2": 45,
+      "frequency": 27
+    },
+    {
+      "num1": 19,
+      "num2": 45,
+      "frequency": 27
+    },
+    {
+      "num1": 23,
+      "num2": 32,
+      "frequency": 27
+    },
+    {
+      "num1": 23,
+      "num2": 44,
+      "frequency": 27
+    },
+    {
+      "num1": 24,
+      "num2": 26,
+      "frequency": 27
+    },
+    {
+      "num1": 3,
+      "num2": 50,
+      "frequency": 26
+    },
+    {
+      "num1": 4,
+      "num2": 14,
+      "frequency": 26
+    },
+    {
+      "num1": 5,
+      "num2": 25,
+      "frequency": 26
+    },
+    {
+      "num1": 6,
+      "num2": 9,
+      "frequency": 26
+    },
+    {
+      "num1": 11,
+      "num2": 13,
+      "frequency": 26
+    },
+    {
+      "num1": 11,
+      "num2": 29,
+      "frequency": 26
+    },
+    {
+      "num1": 12,
+      "num2": 44,
+      "frequency": 26
+    },
+    {
+      "num1": 13,
+      "num2": 42,
+      "frequency": 26
+    },
+    {
+      "num1": 16,
+      "num2": 18,
+      "frequency": 26
+    },
+    {
+      "num1": 17,
+      "num2": 28,
+      "frequency": 26
+    },
+    {
+      "num1": 29,
+      "num2": 47,
+      "frequency": 26
+    },
+    {
+      "num1": 35,
+      "num2": 42,
+      "frequency": 26
+    },
+    {
+      "num1": 35,
+      "num2": 44,
+      "frequency": 26
+    },
+    {
+      "num1": 44,
+      "num2": 50,
+      "frequency": 26
+    },
+    {
+      "num1": 7,
+      "num2": 34,
+      "frequency": 25
+    },
+    {
+      "num1": 12,
+      "num2": 19,
+      "frequency": 25
+    },
+    {
+      "num1": 15,
+      "num2": 42,
+      "frequency": 25
+    },
+    {
+      "num1": 15,
+      "num2": 44,
+      "frequency": 25
+    },
+    {
+      "num1": 29,
+      "num2": 35,
+      "frequency": 25
+    },
+    {
+      "num1": 29,
+      "num2": 48,
+      "frequency": 25
+    },
+    {
+      "num1": 42,
+      "num2": 45,
+      "frequency": 25
+    },
+    {
+      "num1": 2,
+      "num2": 19,
+      "frequency": 24
+    },
+    {
+      "num1": 2,
+      "num2": 45,
+      "frequency": 24
+    },
+    {
+      "num1": 4,
+      "num2": 16,
+      "frequency": 24
+    },
+    {
+      "num1": 6,
+      "num2": 10,
+      "frequency": 24
+    },
+    {
+      "num1": 10,
+      "num2": 19,
+      "frequency": 24
+    },
+    {
+      "num1": 10,
+      "num2": 23,
+      "frequency": 24
+    },
+    {
+      "num1": 11,
+      "num2": 44,
+      "frequency": 24
+    },
+    {
+      "num1": 14,
+      "num2": 21,
+      "frequency": 24
+    },
+    {
+      "num1": 15,
+      "num2": 48,
+      "frequency": 24
+    },
+    {
+      "num1": 17,
+      "num2": 21,
+      "frequency": 24
+    },
+    {
+      "num1": 17,
+      "num2": 44,
+      "frequency": 24
+    },
+    {
+      "num1": 21,
+      "num2": 45,
+      "frequency": 24
+    },
+    {
+      "num1": 25,
+      "num2": 45,
+      "frequency": 24
+    },
+    {
+      "num1": 26,
+      "num2": 49,
+      "frequency": 24
+    },
+    {
+      "num1": 3,
+      "num2": 42,
+      "frequency": 23
+    },
+    {
+      "num1": 4,
+      "num2": 39,
+      "frequency": 23
+    },
+    {
+      "num1": 4,
+      "num2": 44,
+      "frequency": 23
+    },
+    {
+      "num1": 5,
+      "num2": 8,
+      "frequency": 23
+    },
+    {
+      "num1": 5,
+      "num2": 17,
+      "frequency": 23
+    },
+    {
+      "num1": 5,
+      "num2": 31,
+      "frequency": 23
+    },
+    {
+      "num1": 5,
+      "num2": 37,
+      "frequency": 23
+    },
+    {
+      "num1": 6,
+      "num2": 24,
+      "frequency": 23
+    },
+    {
+      "num1": 8,
+      "num2": 24,
+      "frequency": 23
+    },
+    {
+      "num1": 9,
+      "num2": 13,
+      "frequency": 23
+    },
+    {
+      "num1": 9,
+      "num2": 39,
+      "frequency": 23
+    },
+    {
+      "num1": 10,
+      "num2": 31,
+      "frequency": 23
+    },
+    {
+      "num1": 12,
+      "num2": 33,
+      "frequency": 23
+    },
+    {
+      "num1": 12,
+      "num2": 48,
+      "frequency": 23
+    },
+    {
+      "num1": 13,
+      "num2": 35,
+      "frequency": 23
+    },
+    {
+      "num1": 14,
+      "num2": 49,
+      "frequency": 23
+    },
+    {
+      "num1": 19,
+      "num2": 23,
+      "frequency": 23
+    },
+    {
+      "num1": 20,
+      "num2": 45,
+      "frequency": 23
+    },
+    {
+      "num1": 23,
+      "num2": 30,
+      "frequency": 23
+    },
+    {
+      "num1": 24,
+      "num2": 49,
+      "frequency": 23
+    },
+    {
+      "num1": 26,
+      "num2": 50,
+      "frequency": 23
+    },
+    {
+      "num1": 27,
+      "num2": 39,
+      "frequency": 23
+    },
+    {
+      "num1": 27,
+      "num2": 42,
+      "frequency": 23
+    },
+    {
+      "num1": 28,
+      "num2": 48,
+      "frequency": 23
+    },
+    {
+      "num1": 30,
+      "num2": 38,
+      "frequency": 23
+    },
+    {
+      "num1": 31,
+      "num2": 38,
+      "frequency": 23
+    },
+    {
+      "num1": 42,
+      "num2": 48,
+      "frequency": 23
+    },
+    {
+      "num1": 45,
+      "num2": 49,
+      "frequency": 23
+    },
+    {
+      "num1": 1,
+      "num2": 4,
+      "frequency": 22
+    },
+    {
+      "num1": 1,
+      "num2": 11,
+      "frequency": 22
+    },
+    {
+      "num1": 1,
+      "num2": 18,
+      "frequency": 22
+    },
+    {
+      "num1": 3,
+      "num2": 10,
+      "frequency": 22
+    },
+    {
+      "num1": 3,
+      "num2": 43,
+      "frequency": 22
+    },
+    {
+      "num1": 4,
+      "num2": 21,
+      "frequency": 22
+    },
+    {
+      "num1": 4,
+      "num2": 34,
+      "frequency": 22
+    },
+    {
+      "num1": 5,
+      "num2": 14,
+      "frequency": 22
+    },
+    {
+      "num1": 6,
+      "num2": 39,
+      "frequency": 22
+    },
+    {
+      "num1": 10,
+      "num2": 42,
+      "frequency": 22
+    },
+    {
+      "num1": 10,
+      "num2": 44,
+      "frequency": 22
+    },
+    {
+      "num1": 10,
+      "num2": 50,
+      "frequency": 22
+    },
+    {
+      "num1": 13,
+      "num2": 24,
+      "frequency": 22
+    },
+    {
+      "num1": 14,
+      "num2": 16,
+      "frequency": 22
+    },
+    {
+      "num1": 14,
+      "num2": 19,
+      "frequency": 22
+    },
+    {
+      "num1": 15,
+      "num2": 35,
+      "frequency": 22
+    },
+    {
+      "num1": 16,
+      "num2": 44,
+      "frequency": 22
+    },
+    {
+      "num1": 19,
+      "num2": 21,
+      "frequency": 22
+    },
+    {
+      "num1": 19,
+      "num2": 49,
+      "frequency": 22
+    },
+    {
+      "num1": 20,
+      "num2": 23,
+      "frequency": 22
+    },
+    {
+      "num1": 20,
+      "num2": 27,
+      "frequency": 22
+    },
+    {
+      "num1": 20,
+      "num2": 30,
+      "frequency": 22
+    },
+    {
+      "num1": 21,
+      "num2": 26,
+      "frequency": 22
+    },
+    {
+      "num1": 24,
+      "num2": 29,
+      "frequency": 22
+    },
+    {
+      "num1": 25,
+      "num2": 41,
+      "frequency": 22
+    },
+    {
+      "num1": 25,
+      "num2": 44,
+      "frequency": 22
+    },
+    {
+      "num1": 27,
+      "num2": 46,
+      "frequency": 22
+    },
+    {
+      "num1": 29,
+      "num2": 37,
+      "frequency": 22
+    },
+    {
+      "num1": 36,
+      "num2": 42,
+      "frequency": 22
+    },
+    {
+      "num1": 38,
+      "num2": 42,
+      "frequency": 22
+    },
+    {
+      "num1": 40,
+      "num2": 43,
+      "frequency": 22
+    },
+    {
+      "num1": 1,
+      "num2": 42,
+      "frequency": 21
+    },
+    {
+      "num1": 2,
+      "num2": 10,
+      "frequency": 21
+    },
+    {
+      "num1": 3,
+      "num2": 49,
+      "frequency": 21
+    },
+    {
+      "num1": 4,
+      "num2": 17,
+      "frequency": 21
+    },
+    {
+      "num1": 4,
+      "num2": 27,
+      "frequency": 21
+    },
+    {
+      "num1": 4,
+      "num2": 43,
+      "frequency": 21
+    },
+    {
+      "num1": 4,
+      "num2": 50,
+      "frequency": 21
+    },
+    {
+      "num1": 5,
+      "num2": 7,
+      "frequency": 21
+    },
+    {
+      "num1": 5,
+      "num2": 9,
+      "frequency": 21
+    },
+    {
+      "num1": 5,
+      "num2": 21,
+      "frequency": 21
+    },
+    {
+      "num1": 6,
+      "num2": 37,
+      "frequency": 21
+    },
+    {
+      "num1": 7,
+      "num2": 19,
+      "frequency": 21
+    },
+    {
+      "num1": 7,
+      "num2": 20,
+      "frequency": 21
+    },
+    {
+      "num1": 7,
+      "num2": 21,
+      "frequency": 21
+    },
+    {
+      "num1": 7,
+      "num2": 26,
+      "frequency": 21
+    },
+    {
+      "num1": 7,
+      "num2": 37,
+      "frequency": 21
+    },
+    {
+      "num1": 7,
+      "num2": 45,
+      "frequency": 21
+    },
+    {
+      "num1": 7,
+      "num2": 50,
+      "frequency": 21
+    },
+    {
+      "num1": 8,
+      "num2": 10,
+      "frequency": 21
+    },
+    {
+      "num1": 8,
+      "num2": 42,
+      "frequency": 21
+    },
+    {
+      "num1": 9,
+      "num2": 19,
+      "frequency": 21
+    },
+    {
+      "num1": 10,
+      "num2": 27,
+      "frequency": 21
+    },
+    {
+      "num1": 10,
+      "num2": 30,
+      "frequency": 21
+    },
+    {
+      "num1": 10,
+      "num2": 49,
+      "frequency": 21
+    },
+    {
+      "num1": 12,
+      "num2": 38,
+      "frequency": 21
+    },
+    {
+      "num1": 12,
+      "num2": 45,
+      "frequency": 21
+    },
+    {
+      "num1": 13,
+      "num2": 14,
+      "frequency": 21
+    },
+    {
+      "num1": 13,
+      "num2": 17,
+      "frequency": 21
+    },
+    {
+      "num1": 14,
+      "num2": 29,
+      "frequency": 21
+    },
+    {
+      "num1": 14,
+      "num2": 50,
+      "frequency": 21
+    },
+    {
+      "num1": 15,
+      "num2": 38,
+      "frequency": 21
+    },
+    {
+      "num1": 16,
+      "num2": 28,
+      "frequency": 21
+    },
+    {
+      "num1": 16,
+      "num2": 37,
+      "frequency": 21
+    },
+    {
+      "num1": 17,
+      "num2": 25,
+      "frequency": 21
+    },
+    {
+      "num1": 17,
+      "num2": 34,
+      "frequency": 21
+    },
+    {
+      "num1": 19,
+      "num2": 25,
+      "frequency": 21
+    },
+    {
+      "num1": 19,
+      "num2": 34,
+      "frequency": 21
+    },
+    {
+      "num1": 19,
+      "num2": 38,
+      "frequency": 21
+    },
+    {
+      "num1": 20,
+      "num2": 21,
+      "frequency": 21
+    },
+    {
+      "num1": 20,
+      "num2": 35,
+      "frequency": 21
+    },
+    {
+      "num1": 20,
+      "num2": 42,
+      "frequency": 21
+    },
+    {
+      "num1": 21,
+      "num2": 30,
+      "frequency": 21
+    },
+    {
+      "num1": 21,
+      "num2": 34,
+      "frequency": 21
+    },
+    {
+      "num1": 21,
+      "num2": 35,
+      "frequency": 21
+    },
+    {
+      "num1": 21,
+      "num2": 38,
+      "frequency": 21
+    },
+    {
+      "num1": 21,
+      "num2": 44,
+      "frequency": 21
+    },
+    {
+      "num1": 23,
+      "num2": 27,
+      "frequency": 21
+    },
+    {
+      "num1": 23,
+      "num2": 40,
+      "frequency": 21
+    },
+    {
+      "num1": 24,
+      "num2": 35,
+      "frequency": 21
+    },
+    {
+      "num1": 24,
+      "num2": 46,
+      "frequency": 21
+    },
+    {
+      "num1": 25,
+      "num2": 30,
+      "frequency": 21
+    },
+    {
+      "num1": 25,
+      "num2": 38,
+      "frequency": 21
+    },
+    {
+      "num1": 25,
+      "num2": 50,
+      "frequency": 21
+    },
+    {
+      "num1": 27,
+      "num2": 41,
+      "frequency": 21
+    },
+    {
+      "num1": 27,
+      "num2": 50,
+      "frequency": 21
+    },
+    {
+      "num1": 29,
+      "num2": 41,
+      "frequency": 21
+    },
+    {
+      "num1": 29,
+      "num2": 44,
+      "frequency": 21
+    },
+    {
+      "num1": 29,
+      "num2": 49,
+      "frequency": 21
+    },
+    {
+      "num1": 30,
+      "num2": 45,
+      "frequency": 21
+    },
+    {
+      "num1": 30,
+      "num2": 49,
+      "frequency": 21
+    },
+    {
+      "num1": 32,
+      "num2": 36,
+      "frequency": 21
+    },
+    {
+      "num1": 36,
+      "num2": 37,
+      "frequency": 21
+    },
+    {
+      "num1": 37,
+      "num2": 42,
+      "frequency": 21
+    },
+    {
+      "num1": 38,
+      "num2": 43,
+      "frequency": 21
+    },
+    {
+      "num1": 39,
+      "num2": 50,
+      "frequency": 21
+    },
+    {
+      "num1": 1,
+      "num2": 26,
+      "frequency": 20
+    },
+    {
+      "num1": 2,
+      "num2": 15,
+      "frequency": 20
+    },
+    {
+      "num1": 2,
+      "num2": 44,
+      "frequency": 20
+    },
+    {
+      "num1": 3,
+      "num2": 13,
+      "frequency": 20
+    },
+    {
+      "num1": 3,
+      "num2": 27,
+      "frequency": 20
+    },
+    {
+      "num1": 3,
+      "num2": 34,
+      "frequency": 20
+    },
+    {
+      "num1": 5,
+      "num2": 33,
+      "frequency": 20
+    },
+    {
+      "num1": 5,
+      "num2": 38,
+      "frequency": 20
+    },
+    {
+      "num1": 5,
+      "num2": 42,
+      "frequency": 20
+    },
+    {
+      "num1": 5,
+      "num2": 47,
+      "frequency": 20
+    },
+    {
+      "num1": 6,
+      "num2": 29,
+      "frequency": 20
+    },
+    {
+      "num1": 6,
+      "num2": 41,
+      "frequency": 20
+    },
+    {
+      "num1": 6,
+      "num2": 45,
+      "frequency": 20
+    },
+    {
+      "num1": 7,
+      "num2": 25,
+      "frequency": 20
+    },
+    {
+      "num1": 7,
+      "num2": 27,
+      "frequency": 20
+    },
+    {
+      "num1": 7,
+      "num2": 43,
+      "frequency": 20
+    },
+    {
+      "num1": 8,
+      "num2": 16,
+      "frequency": 20
+    },
+    {
+      "num1": 8,
+      "num2": 19,
+      "frequency": 20
+    },
+    {
+      "num1": 8,
+      "num2": 27,
+      "frequency": 20
+    },
+    {
+      "num1": 9,
+      "num2": 21,
+      "frequency": 20
+    },
+    {
+      "num1": 9,
+      "num2": 30,
+      "frequency": 20
+    },
+    {
+      "num1": 9,
+      "num2": 37,
+      "frequency": 20
+    },
+    {
+      "num1": 10,
+      "num2": 29,
+      "frequency": 20
+    },
+    {
+      "num1": 10,
+      "num2": 33,
+      "frequency": 20
+    },
+    {
+      "num1": 10,
+      "num2": 37,
+      "frequency": 20
+    },
+    {
+      "num1": 10,
+      "num2": 40,
+      "frequency": 20
+    },
+    {
+      "num1": 11,
+      "num2": 17,
+      "frequency": 20
+    },
+    {
+      "num1": 12,
+      "num2": 15,
+      "frequency": 20
+    },
+    {
+      "num1": 12,
+      "num2": 27,
+      "frequency": 20
+    },
+    {
+      "num1": 13,
+      "num2": 21,
+      "frequency": 20
+    },
+    {
+      "num1": 13,
+      "num2": 26,
+      "frequency": 20
+    },
+    {
+      "num1": 13,
+      "num2": 29,
+      "frequency": 20
+    },
+    {
+      "num1": 14,
+      "num2": 44,
+      "frequency": 20
+    },
+    {
+      "num1": 14,
+      "num2": 48,
+      "frequency": 20
+    },
+    {
+      "num1": 15,
+      "num2": 16,
+      "frequency": 20
+    },
+    {
+      "num1": 15,
+      "num2": 41,
+      "frequency": 20
+    },
+    {
+      "num1": 16,
+      "num2": 34,
+      "frequency": 20
+    },
+    {
+      "num1": 17,
+      "num2": 18,
+      "frequency": 20
+    },
+    {
+      "num1": 17,
+      "num2": 23,
+      "frequency": 20
+    },
+    {
+      "num1": 18,
+      "num2": 42,
+      "frequency": 20
+    },
+    {
+      "num1": 19,
+      "num2": 29,
+      "frequency": 20
+    },
+    {
+      "num1": 19,
+      "num2": 42,
+      "frequency": 20
+    },
+    {
+      "num1": 20,
+      "num2": 41,
+      "frequency": 20
+    },
+    {
+      "num1": 20,
+      "num2": 44,
+      "frequency": 20
+    },
+    {
+      "num1": 21,
+      "num2": 36,
+      "frequency": 20
+    },
+    {
+      "num1": 22,
+      "num2": 49,
+      "frequency": 20
+    },
+    {
+      "num1": 23,
+      "num2": 49,
+      "frequency": 20
+    },
+    {
+      "num1": 25,
+      "num2": 28,
+      "frequency": 20
+    },
+    {
+      "num1": 26,
+      "num2": 35,
+      "frequency": 20
+    },
+    {
+      "num1": 26,
+      "num2": 36,
+      "frequency": 20
+    },
+    {
+      "num1": 26,
+      "num2": 37,
+      "frequency": 20
+    },
+    {
+      "num1": 26,
+      "num2": 44,
+      "frequency": 20
+    },
+    {
+      "num1": 27,
+      "num2": 36,
+      "frequency": 20
+    },
+    {
+      "num1": 27,
+      "num2": 44,
+      "frequency": 20
+    },
+    {
+      "num1": 29,
+      "num2": 33,
+      "frequency": 20
+    },
+    {
+      "num1": 29,
+      "num2": 39,
+      "frequency": 20
+    },
+    {
+      "num1": 29,
+      "num2": 40,
+      "frequency": 20
+    },
+    {
+      "num1": 30,
+      "num2": 44,
+      "frequency": 20
+    },
+    {
+      "num1": 31,
+      "num2": 33,
+      "frequency": 20
+    },
+    {
+      "num1": 31,
+      "num2": 42,
+      "frequency": 20
+    },
+    {
+      "num1": 32,
+      "num2": 39,
+      "frequency": 20
+    },
+    {
+      "num1": 34,
+      "num2": 38,
+      "frequency": 20
+    },
+    {
+      "num1": 34,
+      "num2": 46,
+      "frequency": 20
+    },
+    {
+      "num1": 35,
+      "num2": 47,
+      "frequency": 20
+    },
+    {
+      "num1": 36,
+      "num2": 46,
+      "frequency": 20
+    },
+    {
+      "num1": 37,
+      "num2": 48,
+      "frequency": 20
+    },
+    {
+      "num1": 42,
+      "num2": 47,
+      "frequency": 20
+    },
+    {
+      "num1": 45,
+      "num2": 48,
+      "frequency": 20
+    },
+    {
+      "num1": 1,
+      "num2": 9,
+      "frequency": 19
+    },
+    {
+      "num1": 1,
+      "num2": 21,
+      "frequency": 19
+    },
+    {
+      "num1": 1,
+      "num2": 29,
+      "frequency": 19
+    },
+    {
+      "num1": 2,
+      "num2": 26,
+      "frequency": 19
+    },
+    {
+      "num1": 2,
+      "num2": 46,
+      "frequency": 19
+    },
+    {
+      "num1": 3,
+      "num2": 8,
+      "frequency": 19
+    },
+    {
+      "num1": 3,
+      "num2": 12,
+      "frequency": 19
+    },
+    {
+      "num1": 3,
+      "num2": 15,
+      "frequency": 19
+    },
+    {
+      "num1": 3,
+      "num2": 25,
+      "frequency": 19
+    },
+    {
+      "num1": 3,
+      "num2": 32,
+      "frequency": 19
+    },
+    {
+      "num1": 5,
+      "num2": 19,
+      "frequency": 19
+    },
+    {
+      "num1": 5,
+      "num2": 40,
+      "frequency": 19
+    },
+    {
+      "num1": 5,
+      "num2": 49,
+      "frequency": 19
+    },
+    {
+      "num1": 6,
+      "num2": 25,
+      "frequency": 19
+    },
+    {
+      "num1": 6,
+      "num2": 27,
+      "frequency": 19
+    },
+    {
+      "num1": 6,
+      "num2": 34,
+      "frequency": 19
+    },
+    {
+      "num1": 6,
+      "num2": 48,
+      "frequency": 19
+    },
+    {
+      "num1": 7,
+      "num2": 33,
+      "frequency": 19
+    },
+    {
+      "num1": 7,
+      "num2": 39,
+      "frequency": 19
+    },
+    {
+      "num1": 7,
+      "num2": 40,
+      "frequency": 19
+    },
+    {
+      "num1": 8,
+      "num2": 11,
+      "frequency": 19
+    },
+    {
+      "num1": 8,
+      "num2": 15,
+      "frequency": 19
+    },
+    {
+      "num1": 8,
+      "num2": 49,
+      "frequency": 19
+    },
+    {
+      "num1": 8,
+      "num2": 50,
+      "frequency": 19
+    },
+    {
+      "num1": 9,
+      "num2": 14,
+      "frequency": 19
+    },
+    {
+      "num1": 9,
+      "num2": 38,
+      "frequency": 19
+    },
+    {
+      "num1": 9,
+      "num2": 40,
+      "frequency": 19
+    },
+    {
+      "num1": 9,
+      "num2": 49,
+      "frequency": 19
+    },
+    {
+      "num1": 10,
+      "num2": 13,
+      "frequency": 19
+    },
+    {
+      "num1": 10,
+      "num2": 22,
+      "frequency": 19
+    },
+    {
+      "num1": 11,
+      "num2": 30,
+      "frequency": 19
+    },
+    {
+      "num1": 12,
+      "num2": 17,
+      "frequency": 19
+    },
+    {
+      "num1": 12,
+      "num2": 26,
+      "frequency": 19
+    },
+    {
+      "num1": 12,
+      "num2": 37,
+      "frequency": 19
+    },
+    {
+      "num1": 13,
+      "num2": 37,
+      "frequency": 19
+    },
+    {
+      "num1": 13,
+      "num2": 49,
+      "frequency": 19
+    },
+    {
+      "num1": 14,
+      "num2": 23,
+      "frequency": 19
+    },
+    {
+      "num1": 14,
+      "num2": 26,
+      "frequency": 19
+    },
+    {
+      "num1": 14,
+      "num2": 36,
+      "frequency": 19
+    },
+    {
+      "num1": 14,
+      "num2": 42,
+      "frequency": 19
+    },
+    {
+      "num1": 15,
+      "num2": 17,
+      "frequency": 19
+    },
+    {
+      "num1": 15,
+      "num2": 19,
+      "frequency": 19
+    },
+    {
+      "num1": 15,
+      "num2": 25,
+      "frequency": 19
+    },
+    {
+      "num1": 15,
+      "num2": 49,
+      "frequency": 19
+    },
+    {
+      "num1": 16,
+      "num2": 17,
+      "frequency": 19
+    },
+    {
+      "num1": 16,
+      "num2": 23,
+      "frequency": 19
+    },
+    {
+      "num1": 16,
+      "num2": 26,
+      "frequency": 19
+    },
+    {
+      "num1": 16,
+      "num2": 31,
+      "frequency": 19
+    },
+    {
+      "num1": 16,
+      "num2": 42,
+      "frequency": 19
+    },
+    {
+      "num1": 17,
+      "num2": 27,
+      "frequency": 19
+    },
+    {
+      "num1": 17,
+      "num2": 29,
+      "frequency": 19
+    },
+    {
+      "num1": 18,
+      "num2": 35,
+      "frequency": 19
+    },
+    {
+      "num1": 19,
+      "num2": 36,
+      "frequency": 19
+    },
+    {
+      "num1": 19,
+      "num2": 43,
+      "frequency": 19
+    },
+    {
+      "num1": 19,
+      "num2": 44,
+      "frequency": 19
+    },
+    {
+      "num1": 20,
+      "num2": 26,
+      "frequency": 19
+    },
+    {
+      "num1": 20,
+      "num2": 50,
+      "frequency": 19
+    },
+    {
+      "num1": 21,
+      "num2": 32,
+      "frequency": 19
+    },
+    {
+      "num1": 22,
+      "num2": 44,
+      "frequency": 19
+    },
+    {
+      "num1": 23,
+      "num2": 26,
+      "frequency": 19
+    },
+    {
+      "num1": 23,
+      "num2": 42,
+      "frequency": 19
+    },
+    {
+      "num1": 23,
+      "num2": 47,
+      "frequency": 19
+    },
+    {
+      "num1": 23,
+      "num2": 48,
+      "frequency": 19
+    },
+    {
+      "num1": 24,
+      "num2": 34,
+      "frequency": 19
+    },
+    {
+      "num1": 24,
+      "num2": 39,
+      "frequency": 19
+    },
+    {
+      "num1": 24,
+      "num2": 42,
+      "frequency": 19
+    },
+    {
+      "num1": 25,
+      "num2": 26,
+      "frequency": 19
+    },
+    {
+      "num1": 25,
+      "num2": 37,
+      "frequency": 19
+    },
+    {
+      "num1": 25,
+      "num2": 39,
+      "frequency": 19
+    },
+    {
+      "num1": 25,
+      "num2": 40,
+      "frequency": 19
+    },
+    {
+      "num1": 26,
+      "num2": 30,
+      "frequency": 19
+    },
+    {
+      "num1": 26,
+      "num2": 34,
+      "frequency": 19
+    },
+    {
+      "num1": 26,
+      "num2": 38,
+      "frequency": 19
+    },
+    {
+      "num1": 27,
+      "num2": 45,
+      "frequency": 19
+    },
+    {
+      "num1": 28,
+      "num2": 29,
+      "frequency": 19
+    },
+    {
+      "num1": 28,
+      "num2": 42,
+      "frequency": 19
+    },
+    {
+      "num1": 30,
+      "num2": 39,
+      "frequency": 19
+    },
+    {
+      "num1": 33,
+      "num2": 42,
+      "frequency": 19
+    },
+    {
+      "num1": 34,
+      "num2": 47,
+      "frequency": 19
+    },
+    {
+      "num1": 35,
+      "num2": 45,
+      "frequency": 19
+    },
+    {
+      "num1": 37,
+      "num2": 39,
+      "frequency": 19
+    },
+    {
+      "num1": 37,
+      "num2": 44,
+      "frequency": 19
+    },
+    {
+      "num1": 37,
+      "num2": 49,
+      "frequency": 19
+    },
+    {
+      "num1": 38,
+      "num2": 45,
+      "frequency": 19
+    },
+    {
+      "num1": 38,
+      "num2": 48,
+      "frequency": 19
+    },
+    {
+      "num1": 43,
+      "num2": 46,
+      "frequency": 19
+    },
+    {
+      "num1": 47,
+      "num2": 50,
+      "frequency": 19
+    },
+    {
+      "num1": 1,
+      "num2": 10,
+      "frequency": 18
+    },
+    {
+      "num1": 1,
+      "num2": 45,
+      "frequency": 18
+    },
+    {
+      "num1": 2,
+      "num2": 28,
+      "frequency": 18
+    },
+    {
+      "num1": 2,
+      "num2": 36,
+      "frequency": 18
+    },
+    {
+      "num1": 2,
+      "num2": 38,
+      "frequency": 18
+    },
+    {
+      "num1": 2,
+      "num2": 42,
+      "frequency": 18
+    },
+    {
+      "num1": 3,
+      "num2": 4,
+      "frequency": 18
+    },
+    {
+      "num1": 3,
+      "num2": 17,
+      "frequency": 18
+    },
+    {
+      "num1": 3,
+      "num2": 19,
+      "frequency": 18
+    },
+    {
+      "num1": 3,
+      "num2": 33,
+      "frequency": 18
+    },
+    {
+      "num1": 3,
+      "num2": 48,
+      "frequency": 18
+    },
+    {
+      "num1": 4,
+      "num2": 5,
+      "frequency": 18
+    },
+    {
+      "num1": 4,
+      "num2": 7,
+      "frequency": 18
+    },
+    {
+      "num1": 4,
+      "num2": 10,
+      "frequency": 18
+    },
+    {
+      "num1": 5,
+      "num2": 24,
+      "frequency": 18
+    },
+    {
+      "num1": 5,
+      "num2": 35,
+      "frequency": 18
+    },
+    {
+      "num1": 6,
+      "num2": 12,
+      "frequency": 18
+    },
+    {
+      "num1": 6,
+      "num2": 23,
+      "frequency": 18
+    },
+    {
+      "num1": 7,
+      "num2": 12,
+      "frequency": 18
+    },
+    {
+      "num1": 7,
+      "num2": 18,
+      "frequency": 18
+    },
+    {
+      "num1": 7,
+      "num2": 23,
+      "frequency": 18
+    },
+    {
+      "num1": 7,
+      "num2": 29,
+      "frequency": 18
+    },
+    {
+      "num1": 7,
+      "num2": 44,
+      "frequency": 18
+    },
+    {
+      "num1": 7,
+      "num2": 48,
+      "frequency": 18
+    },
+    {
+      "num1": 8,
+      "num2": 18,
+      "frequency": 18
+    },
+    {
+      "num1": 8,
+      "num2": 25,
+      "frequency": 18
+    },
+    {
+      "num1": 8,
+      "num2": 33,
+      "frequency": 18
+    },
+    {
+      "num1": 8,
+      "num2": 34,
+      "frequency": 18
+    },
+    {
+      "num1": 8,
+      "num2": 47,
+      "frequency": 18
+    },
+    {
+      "num1": 9,
+      "num2": 17,
+      "frequency": 18
+    },
+    {
+      "num1": 9,
+      "num2": 50,
+      "frequency": 18
+    },
+    {
+      "num1": 10,
+      "num2": 24,
+      "frequency": 18
+    },
+    {
+      "num1": 10,
+      "num2": 41,
+      "frequency": 18
+    },
+    {
+      "num1": 11,
+      "num2": 14,
+      "frequency": 18
+    },
+    {
+      "num1": 11,
+      "num2": 19,
+      "frequency": 18
+    },
+    {
+      "num1": 11,
+      "num2": 20,
+      "frequency": 18
+    },
+    {
+      "num1": 11,
+      "num2": 28,
+      "frequency": 18
+    },
+    {
+      "num1": 11,
+      "num2": 35,
+      "frequency": 18
+    },
+    {
+      "num1": 11,
+      "num2": 37,
+      "frequency": 18
+    },
+    {
+      "num1": 11,
+      "num2": 47,
+      "frequency": 18
+    },
+    {
+      "num1": 11,
+      "num2": 50,
+      "frequency": 18
+    },
+    {
+      "num1": 12,
+      "num2": 29,
+      "frequency": 18
+    },
+    {
+      "num1": 12,
+      "num2": 30,
+      "frequency": 18
+    },
+    {
+      "num1": 12,
+      "num2": 42,
+      "frequency": 18
+    },
+    {
+      "num1": 12,
+      "num2": 43,
+      "frequency": 18
+    },
+    {
+      "num1": 13,
+      "num2": 30,
+      "frequency": 18
+    },
+    {
+      "num1": 13,
+      "num2": 32,
+      "frequency": 18
+    },
+    {
+      "num1": 13,
+      "num2": 40,
+      "frequency": 18
+    },
+    {
+      "num1": 13,
+      "num2": 44,
+      "frequency": 18
+    },
+    {
+      "num1": 13,
+      "num2": 47,
+      "frequency": 18
+    },
+    {
+      "num1": 13,
+      "num2": 50,
+      "frequency": 18
+    },
+    {
+      "num1": 14,
+      "num2": 34,
+      "frequency": 18
+    },
+    {
+      "num1": 14,
+      "num2": 35,
+      "frequency": 18
+    },
+    {
+      "num1": 14,
+      "num2": 39,
+      "frequency": 18
+    },
+    {
+      "num1": 14,
+      "num2": 45,
+      "frequency": 18
+    },
+    {
+      "num1": 15,
+      "num2": 23,
+      "frequency": 18
+    },
+    {
+      "num1": 15,
+      "num2": 40,
+      "frequency": 18
+    },
+    {
+      "num1": 15,
+      "num2": 45,
+      "frequency": 18
+    },
+    {
+      "num1": 15,
+      "num2": 50,
+      "frequency": 18
+    },
+    {
+      "num1": 16,
+      "num2": 20,
+      "frequency": 18
+    },
+    {
+      "num1": 16,
+      "num2": 35,
+      "frequency": 18
+    },
+    {
+      "num1": 16,
+      "num2": 40,
+      "frequency": 18
+    },
+    {
+      "num1": 16,
+      "num2": 49,
+      "frequency": 18
+    },
+    {
+      "num1": 16,
+      "num2": 50,
+      "frequency": 18
+    },
+    {
+      "num1": 17,
+      "num2": 26,
+      "frequency": 18
+    },
+    {
+      "num1": 17,
+      "num2": 39,
+      "frequency": 18
+    },
+    {
+      "num1": 17,
+      "num2": 42,
+      "frequency": 18
+    },
+    {
+      "num1": 18,
+      "num2": 20,
+      "frequency": 18
+    },
+    {
+      "num1": 18,
+      "num2": 31,
+      "frequency": 18
+    },
+    {
+      "num1": 18,
+      "num2": 39,
+      "frequency": 18
+    },
+    {
+      "num1": 18,
+      "num2": 44,
+      "frequency": 18
+    },
+    {
+      "num1": 19,
+      "num2": 20,
+      "frequency": 18
+    },
+    {
+      "num1": 19,
+      "num2": 26,
+      "frequency": 18
+    },
+    {
+      "num1": 19,
+      "num2": 31,
+      "frequency": 18
+    },
+    {
+      "num1": 19,
+      "num2": 50,
+      "frequency": 18
+    },
+    {
+      "num1": 20,
+      "num2": 38,
+      "frequency": 18
+    },
+    {
+      "num1": 21,
+      "num2": 23,
+      "frequency": 18
+    },
+    {
+      "num1": 21,
+      "num2": 39,
+      "frequency": 18
+    },
+    {
+      "num1": 22,
+      "num2": 23,
+      "frequency": 18
+    },
+    {
+      "num1": 22,
+      "num2": 27,
+      "frequency": 18
+    },
+    {
+      "num1": 23,
+      "num2": 31,
+      "frequency": 18
+    },
+    {
+      "num1": 23,
+      "num2": 34,
+      "frequency": 18
+    },
+    {
+      "num1": 23,
+      "num2": 50,
+      "frequency": 18
+    },
+    {
+      "num1": 24,
+      "num2": 27,
+      "frequency": 18
+    },
+    {
+      "num1": 24,
+      "num2": 37,
+      "frequency": 18
+    },
+    {
+      "num1": 24,
+      "num2": 44,
+      "frequency": 18
+    },
+    {
+      "num1": 24,
+      "num2": 45,
+      "frequency": 18
+    },
+    {
+      "num1": 24,
+      "num2": 50,
+      "frequency": 18
+    },
+    {
+      "num1": 25,
+      "num2": 27,
+      "frequency": 18
+    },
+    {
+      "num1": 25,
+      "num2": 36,
+      "frequency": 18
+    },
+    {
+      "num1": 26,
+      "num2": 32,
+      "frequency": 18
+    },
+    {
+      "num1": 26,
+      "num2": 33,
+      "frequency": 18
+    },
+    {
+      "num1": 27,
+      "num2": 29,
+      "frequency": 18
+    },
+    {
+      "num1": 27,
+      "num2": 30,
+      "frequency": 18
+    },
+    {
+      "num1": 28,
+      "num2": 45,
+      "frequency": 18
+    },
+    {
+      "num1": 29,
+      "num2": 30,
+      "frequency": 18
+    },
+    {
+      "num1": 29,
+      "num2": 45,
+      "frequency": 18
+    },
+    {
+      "num1": 31,
+      "num2": 37,
+      "frequency": 18
+    },
+    {
+      "num1": 34,
+      "num2": 35,
+      "frequency": 18
+    },
+    {
+      "num1": 34,
+      "num2": 40,
+      "frequency": 18
+    },
+    {
+      "num1": 34,
+      "num2": 49,
+      "frequency": 18
+    },
+    {
+      "num1": 35,
+      "num2": 46,
+      "frequency": 18
+    },
+    {
+      "num1": 36,
+      "num2": 38,
+      "frequency": 18
+    },
+    {
+      "num1": 37,
+      "num2": 45,
+      "frequency": 18
+    },
+    {
+      "num1": 38,
+      "num2": 40,
+      "frequency": 18
+    },
+    {
+      "num1": 42,
+      "num2": 49,
+      "frequency": 18
+    },
+    {
+      "num1": 43,
+      "num2": 44,
+      "frequency": 18
+    },
+    {
+      "num1": 44,
+      "num2": 48,
+      "frequency": 18
+    },
+    {
+      "num1": 47,
+      "num2": 48,
+      "frequency": 18
+    },
+    {
+      "num1": 48,
+      "num2": 50,
+      "frequency": 18
+    },
+    {
+      "num1": 1,
+      "num2": 17,
+      "frequency": 17
+    },
+    {
+      "num1": 1,
+      "num2": 23,
+      "frequency": 17
+    },
+    {
+      "num1": 1,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 2,
+      "num2": 24,
+      "frequency": 17
+    },
+    {
+      "num1": 2,
+      "num2": 32,
+      "frequency": 17
+    },
+    {
+      "num1": 2,
+      "num2": 35,
+      "frequency": 17
+    },
+    {
+      "num1": 2,
+      "num2": 39,
+      "frequency": 17
+    },
+    {
+      "num1": 2,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 3,
+      "num2": 21,
+      "frequency": 17
+    },
+    {
+      "num1": 3,
+      "num2": 44,
+      "frequency": 17
+    },
+    {
+      "num1": 3,
+      "num2": 46,
+      "frequency": 17
+    },
+    {
+      "num1": 4,
+      "num2": 30,
+      "frequency": 17
+    },
+    {
+      "num1": 4,
+      "num2": 31,
+      "frequency": 17
+    },
+    {
+      "num1": 4,
+      "num2": 37,
+      "frequency": 17
+    },
+    {
+      "num1": 4,
+      "num2": 38,
+      "frequency": 17
+    },
+    {
+      "num1": 5,
+      "num2": 15,
+      "frequency": 17
+    },
+    {
+      "num1": 5,
+      "num2": 41,
+      "frequency": 17
+    },
+    {
+      "num1": 5,
+      "num2": 44,
+      "frequency": 17
+    },
+    {
+      "num1": 6,
+      "num2": 11,
+      "frequency": 17
+    },
+    {
+      "num1": 6,
+      "num2": 13,
+      "frequency": 17
+    },
+    {
+      "num1": 6,
+      "num2": 14,
+      "frequency": 17
+    },
+    {
+      "num1": 6,
+      "num2": 15,
+      "frequency": 17
+    },
+    {
+      "num1": 6,
+      "num2": 17,
+      "frequency": 17
+    },
+    {
+      "num1": 6,
+      "num2": 18,
+      "frequency": 17
+    },
+    {
+      "num1": 6,
+      "num2": 19,
+      "frequency": 17
+    },
+    {
+      "num1": 6,
+      "num2": 42,
+      "frequency": 17
+    },
+    {
+      "num1": 6,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 7,
+      "num2": 28,
+      "frequency": 17
+    },
+    {
+      "num1": 7,
+      "num2": 32,
+      "frequency": 17
+    },
+    {
+      "num1": 8,
+      "num2": 17,
+      "frequency": 17
+    },
+    {
+      "num1": 8,
+      "num2": 26,
+      "frequency": 17
+    },
+    {
+      "num1": 8,
+      "num2": 30,
+      "frequency": 17
+    },
+    {
+      "num1": 8,
+      "num2": 35,
+      "frequency": 17
+    },
+    {
+      "num1": 8,
+      "num2": 44,
+      "frequency": 17
+    },
+    {
+      "num1": 9,
+      "num2": 11,
+      "frequency": 17
+    },
+    {
+      "num1": 9,
+      "num2": 32,
+      "frequency": 17
+    },
+    {
+      "num1": 9,
+      "num2": 35,
+      "frequency": 17
+    },
+    {
+      "num1": 9,
+      "num2": 43,
+      "frequency": 17
+    },
+    {
+      "num1": 10,
+      "num2": 12,
+      "frequency": 17
+    },
+    {
+      "num1": 10,
+      "num2": 15,
+      "frequency": 17
+    },
+    {
+      "num1": 10,
+      "num2": 20,
+      "frequency": 17
+    },
+    {
+      "num1": 10,
+      "num2": 28,
+      "frequency": 17
+    },
+    {
+      "num1": 11,
+      "num2": 21,
+      "frequency": 17
+    },
+    {
+      "num1": 11,
+      "num2": 22,
+      "frequency": 17
+    },
+    {
+      "num1": 11,
+      "num2": 23,
+      "frequency": 17
+    },
+    {
+      "num1": 12,
+      "num2": 23,
+      "frequency": 17
+    },
+    {
+      "num1": 12,
+      "num2": 24,
+      "frequency": 17
+    },
+    {
+      "num1": 13,
+      "num2": 28,
+      "frequency": 17
+    },
+    {
+      "num1": 13,
+      "num2": 33,
+      "frequency": 17
+    },
+    {
+      "num1": 13,
+      "num2": 39,
+      "frequency": 17
+    },
+    {
+      "num1": 14,
+      "num2": 25,
+      "frequency": 17
+    },
+    {
+      "num1": 15,
+      "num2": 29,
+      "frequency": 17
+    },
+    {
+      "num1": 16,
+      "num2": 36,
+      "frequency": 17
+    },
+    {
+      "num1": 16,
+      "num2": 39,
+      "frequency": 17
+    },
+    {
+      "num1": 17,
+      "num2": 31,
+      "frequency": 17
+    },
+    {
+      "num1": 17,
+      "num2": 32,
+      "frequency": 17
+    },
+    {
+      "num1": 17,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 18,
+      "num2": 25,
+      "frequency": 17
+    },
+    {
+      "num1": 20,
+      "num2": 25,
+      "frequency": 17
+    },
+    {
+      "num1": 20,
+      "num2": 28,
+      "frequency": 17
+    },
+    {
+      "num1": 20,
+      "num2": 29,
+      "frequency": 17
+    },
+    {
+      "num1": 20,
+      "num2": 40,
+      "frequency": 17
+    },
+    {
+      "num1": 20,
+      "num2": 43,
+      "frequency": 17
+    },
+    {
+      "num1": 20,
+      "num2": 48,
+      "frequency": 17
+    },
+    {
+      "num1": 21,
+      "num2": 27,
+      "frequency": 17
+    },
+    {
+      "num1": 21,
+      "num2": 46,
+      "frequency": 17
+    },
+    {
+      "num1": 21,
+      "num2": 47,
+      "frequency": 17
+    },
+    {
+      "num1": 21,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 22,
+      "num2": 25,
+      "frequency": 17
+    },
+    {
+      "num1": 23,
+      "num2": 25,
+      "frequency": 17
+    },
+    {
+      "num1": 23,
+      "num2": 43,
+      "frequency": 17
+    },
+    {
+      "num1": 24,
+      "num2": 30,
+      "frequency": 17
+    },
+    {
+      "num1": 25,
+      "num2": 49,
+      "frequency": 17
+    },
+    {
+      "num1": 26,
+      "num2": 27,
+      "frequency": 17
+    },
+    {
+      "num1": 26,
+      "num2": 40,
+      "frequency": 17
+    },
+    {
+      "num1": 27,
+      "num2": 43,
+      "frequency": 17
+    },
+    {
+      "num1": 27,
+      "num2": 49,
+      "frequency": 17
+    },
+    {
+      "num1": 28,
+      "num2": 30,
+      "frequency": 17
+    },
+    {
+      "num1": 28,
+      "num2": 34,
+      "frequency": 17
+    },
+    {
+      "num1": 28,
+      "num2": 44,
+      "frequency": 17
+    },
+    {
+      "num1": 28,
+      "num2": 46,
+      "frequency": 17
+    },
+    {
+      "num1": 29,
+      "num2": 42,
+      "frequency": 17
+    },
+    {
+      "num1": 29,
+      "num2": 46,
+      "frequency": 17
+    },
+    {
+      "num1": 29,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 30,
+      "num2": 36,
+      "frequency": 17
+    },
+    {
+      "num1": 30,
+      "num2": 46,
+      "frequency": 17
+    },
+    {
+      "num1": 31,
+      "num2": 34,
+      "frequency": 17
+    },
+    {
+      "num1": 31,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 32,
+      "num2": 34,
+      "frequency": 17
+    },
+    {
+      "num1": 32,
+      "num2": 48,
+      "frequency": 17
+    },
+    {
+      "num1": 33,
+      "num2": 38,
+      "frequency": 17
+    },
+    {
+      "num1": 33,
+      "num2": 47,
+      "frequency": 17
+    },
+    {
+      "num1": 33,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 34,
+      "num2": 42,
+      "frequency": 17
+    },
+    {
+      "num1": 34,
+      "num2": 48,
+      "frequency": 17
+    },
+    {
+      "num1": 34,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 35,
+      "num2": 37,
+      "frequency": 17
+    },
+    {
+      "num1": 35,
+      "num2": 41,
+      "frequency": 17
+    },
+    {
+      "num1": 35,
+      "num2": 49,
+      "frequency": 17
+    },
+    {
+      "num1": 36,
+      "num2": 45,
+      "frequency": 17
+    },
+    {
+      "num1": 36,
+      "num2": 49,
+      "frequency": 17
+    },
+    {
+      "num1": 37,
+      "num2": 40,
+      "frequency": 17
+    },
+    {
+      "num1": 37,
+      "num2": 47,
+      "frequency": 17
+    },
+    {
+      "num1": 38,
+      "num2": 44,
+      "frequency": 17
+    },
+    {
+      "num1": 39,
+      "num2": 40,
+      "frequency": 17
+    },
+    {
+      "num1": 40,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 42,
+      "num2": 50,
+      "frequency": 17
+    },
+    {
+      "num1": 44,
+      "num2": 47,
+      "frequency": 17
+    },
+    {
+      "num1": 1,
+      "num2": 6,
+      "frequency": 16
+    },
+    {
+      "num1": 1,
+      "num2": 8,
+      "frequency": 16
+    },
+    {
+      "num1": 1,
+      "num2": 15,
+      "frequency": 16
+    },
+    {
+      "num1": 1,
+      "num2": 19,
+      "frequency": 16
+    },
+    {
+      "num1": 1,
+      "num2": 25,
+      "frequency": 16
+    },
+    {
+      "num1": 1,
+      "num2": 33,
+      "frequency": 16
+    },
+    {
+      "num1": 1,
+      "num2": 36,
+      "frequency": 16
+    },
+    {
+      "num1": 1,
+      "num2": 47,
+      "frequency": 16
+    },
+    {
+      "num1": 2,
+      "num2": 3,
+      "frequency": 16
+    },
+    {
+      "num1": 2,
+      "num2": 8,
+      "frequency": 16
+    },
+    {
+      "num1": 2,
+      "num2": 14,
+      "frequency": 16
+    },
+    {
+      "num1": 2,
+      "num2": 20,
+      "frequency": 16
+    },
+    {
+      "num1": 2,
+      "num2": 21,
+      "frequency": 16
+    },
+    {
+      "num1": 2,
+      "num2": 27,
+      "frequency": 16
+    },
+    {
+      "num1": 2,
+      "num2": 34,
+      "frequency": 16
+    },
+    {
+      "num1": 3,
+      "num2": 29,
+      "frequency": 16
+    },
+    {
+      "num1": 3,
+      "num2": 31,
+      "frequency": 16
+    },
+    {
+      "num1": 4,
+      "num2": 20,
+      "frequency": 16
+    },
+    {
+      "num1": 4,
+      "num2": 41,
+      "frequency": 16
+    },
+    {
+      "num1": 4,
+      "num2": 46,
+      "frequency": 16
+    },
+    {
+      "num1": 4,
+      "num2": 48,
+      "frequency": 16
+    },
+    {
+      "num1": 5,
+      "num2": 10,
+      "frequency": 16
+    },
+    {
+      "num1": 5,
+      "num2": 20,
+      "frequency": 16
+    },
+    {
+      "num1": 5,
+      "num2": 28,
+      "frequency": 16
+    },
+    {
+      "num1": 5,
+      "num2": 29,
+      "frequency": 16
+    },
+    {
+      "num1": 5,
+      "num2": 30,
+      "frequency": 16
+    },
+    {
+      "num1": 6,
+      "num2": 16,
+      "frequency": 16
+    },
+    {
+      "num1": 6,
+      "num2": 30,
+      "frequency": 16
+    },
+    {
+      "num1": 6,
+      "num2": 38,
+      "frequency": 16
+    },
+    {
+      "num1": 7,
+      "num2": 8,
+      "frequency": 16
+    },
+    {
+      "num1": 7,
+      "num2": 11,
+      "frequency": 16
+    },
+    {
+      "num1": 7,
+      "num2": 35,
+      "frequency": 16
+    },
+    {
+      "num1": 7,
+      "num2": 36,
+      "frequency": 16
+    },
+    {
+      "num1": 8,
+      "num2": 23,
+      "frequency": 16
+    },
+    {
+      "num1": 8,
+      "num2": 31,
+      "frequency": 16
+    },
+    {
+      "num1": 8,
+      "num2": 32,
+      "frequency": 16
+    },
+    {
+      "num1": 9,
+      "num2": 15,
+      "frequency": 16
+    },
+    {
+      "num1": 9,
+      "num2": 25,
+      "frequency": 16
+    },
+    {
+      "num1": 9,
+      "num2": 41,
+      "frequency": 16
+    },
+    {
+      "num1": 10,
+      "num2": 14,
+      "frequency": 16
+    },
+    {
+      "num1": 10,
+      "num2": 17,
+      "frequency": 16
+    },
+    {
+      "num1": 10,
+      "num2": 21,
+      "frequency": 16
+    },
+    {
+      "num1": 10,
+      "num2": 47,
+      "frequency": 16
+    },
+    {
+      "num1": 10,
+      "num2": 48,
+      "frequency": 16
+    },
+    {
+      "num1": 11,
+      "num2": 27,
+      "frequency": 16
+    },
+    {
+      "num1": 11,
+      "num2": 43,
+      "frequency": 16
+    },
+    {
+      "num1": 12,
+      "num2": 22,
+      "frequency": 16
+    },
+    {
+      "num1": 12,
+      "num2": 39,
+      "frequency": 16
+    },
+    {
+      "num1": 12,
+      "num2": 47,
+      "frequency": 16
+    },
+    {
+      "num1": 12,
+      "num2": 49,
+      "frequency": 16
+    },
+    {
+      "num1": 13,
+      "num2": 15,
+      "frequency": 16
+    },
+    {
+      "num1": 13,
+      "num2": 34,
+      "frequency": 16
+    },
+    {
+      "num1": 14,
+      "num2": 24,
+      "frequency": 16
+    },
+    {
+      "num1": 14,
+      "num2": 27,
+      "frequency": 16
+    },
+    {
+      "num1": 14,
+      "num2": 28,
+      "frequency": 16
+    },
+    {
+      "num1": 14,
+      "num2": 41,
+      "frequency": 16
+    },
+    {
+      "num1": 14,
+      "num2": 46,
+      "frequency": 16
+    },
+    {
+      "num1": 16,
+      "num2": 29,
+      "frequency": 16
+    },
+    {
+      "num1": 16,
+      "num2": 30,
+      "frequency": 16
+    },
+    {
+      "num1": 16,
+      "num2": 32,
+      "frequency": 16
+    },
+    {
+      "num1": 16,
+      "num2": 46,
+      "frequency": 16
+    },
+    {
+      "num1": 17,
+      "num2": 20,
+      "frequency": 16
+    },
+    {
+      "num1": 17,
+      "num2": 36,
+      "frequency": 16
+    },
+    {
+      "num1": 17,
+      "num2": 40,
+      "frequency": 16
+    },
+    {
+      "num1": 17,
+      "num2": 43,
+      "frequency": 16
+    },
+    {
+      "num1": 17,
+      "num2": 48,
+      "frequency": 16
+    },
+    {
+      "num1": 18,
+      "num2": 19,
+      "frequency": 16
+    },
+    {
+      "num1": 18,
+      "num2": 43,
+      "frequency": 16
+    },
+    {
+      "num1": 19,
+      "num2": 46,
+      "frequency": 16
+    },
+    {
+      "num1": 19,
+      "num2": 47,
+      "frequency": 16
+    },
+    {
+      "num1": 19,
+      "num2": 48,
+      "frequency": 16
+    },
+    {
+      "num1": 20,
+      "num2": 31,
+      "frequency": 16
+    },
+    {
+      "num1": 20,
+      "num2": 37,
+      "frequency": 16
+    },
+    {
+      "num1": 20,
+      "num2": 46,
+      "frequency": 16
+    },
+    {
+      "num1": 21,
+      "num2": 28,
+      "frequency": 16
+    },
+    {
+      "num1": 21,
+      "num2": 29,
+      "frequency": 16
+    },
+    {
+      "num1": 21,
+      "num2": 31,
+      "frequency": 16
+    },
+    {
+      "num1": 21,
+      "num2": 33,
+      "frequency": 16
+    },
+    {
+      "num1": 21,
+      "num2": 40,
+      "frequency": 16
+    },
+    {
+      "num1": 21,
+      "num2": 48,
+      "frequency": 16
+    },
+    {
+      "num1": 21,
+      "num2": 49,
+      "frequency": 16
+    },
+    {
+      "num1": 22,
+      "num2": 48,
+      "frequency": 16
+    },
+    {
+      "num1": 23,
+      "num2": 35,
+      "frequency": 16
+    },
+    {
+      "num1": 23,
+      "num2": 38,
+      "frequency": 16
+    },
+    {
+      "num1": 23,
+      "num2": 45,
+      "frequency": 16
+    },
+    {
+      "num1": 24,
+      "num2": 28,
+      "frequency": 16
+    },
+    {
+      "num1": 25,
+      "num2": 47,
+      "frequency": 16
+    },
+    {
+      "num1": 26,
+      "num2": 28,
+      "frequency": 16
+    },
+    {
+      "num1": 26,
+      "num2": 29,
+      "frequency": 16
+    },
+    {
+      "num1": 27,
+      "num2": 37,
+      "frequency": 16
+    },
+    {
+      "num1": 28,
+      "num2": 37,
+      "frequency": 16
+    },
+    {
+      "num1": 28,
+      "num2": 47,
+      "frequency": 16
+    },
+    {
+      "num1": 28,
+      "num2": 49,
+      "frequency": 16
+    },
+    {
+      "num1": 29,
+      "num2": 34,
+      "frequency": 16
+    },
+    {
+      "num1": 30,
+      "num2": 32,
+      "frequency": 16
+    },
+    {
+      "num1": 30,
+      "num2": 43,
+      "frequency": 16
+    },
+    {
+      "num1": 31,
+      "num2": 39,
+      "frequency": 16
+    },
+    {
+      "num1": 31,
+      "num2": 47,
+      "frequency": 16
+    },
+    {
+      "num1": 32,
+      "num2": 46,
+      "frequency": 16
+    },
+    {
+      "num1": 33,
+      "num2": 36,
+      "frequency": 16
+    },
+    {
+      "num1": 33,
+      "num2": 44,
+      "frequency": 16
+    },
+    {
+      "num1": 34,
+      "num2": 37,
+      "frequency": 16
+    },
+    {
+      "num1": 34,
+      "num2": 39,
+      "frequency": 16
+    },
+    {
+      "num1": 35,
+      "num2": 43,
+      "frequency": 16
+    },
+    {
+      "num1": 36,
+      "num2": 41,
+      "frequency": 16
+    },
+    {
+      "num1": 36,
+      "num2": 47,
+      "frequency": 16
+    },
+    {
+      "num1": 37,
+      "num2": 41,
+      "frequency": 16
+    },
+    {
+      "num1": 38,
+      "num2": 41,
+      "frequency": 16
+    },
+    {
+      "num1": 38,
+      "num2": 49,
+      "frequency": 16
+    },
+    {
+      "num1": 38,
+      "num2": 50,
+      "frequency": 16
+    },
+    {
+      "num1": 39,
+      "num2": 46,
+      "frequency": 16
+    },
+    {
+      "num1": 39,
+      "num2": 47,
+      "frequency": 16
+    },
+    {
+      "num1": 39,
+      "num2": 48,
+      "frequency": 16
+    },
+    {
+      "num1": 40,
+      "num2": 41,
+      "frequency": 16
+    },
+    {
+      "num1": 40,
+      "num2": 42,
+      "frequency": 16
+    },
+    {
+      "num1": 41,
+      "num2": 42,
+      "frequency": 16
+    },
+    {
+      "num1": 42,
+      "num2": 43,
+      "frequency": 16
+    },
+    {
+      "num1": 42,
+      "num2": 46,
+      "frequency": 16
+    }
+  ],
+  "bands": [
+    {
+      "frequency": 29,
+      "count": 1,
+      "percentage": 0.08,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 28,
+      "count": 7,
+      "percentage": 0.57,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 27,
+      "count": 6,
+      "percentage": 0.49,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 26,
+      "count": 14,
+      "percentage": 1.14,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 25,
+      "count": 7,
+      "percentage": 0.57,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 24,
+      "count": 14,
+      "percentage": 1.14,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 23,
+      "count": 28,
+      "percentage": 2.29,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 22,
+      "count": 31,
+      "percentage": 2.53,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 21,
+      "count": 65,
+      "percentage": 5.31,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 20,
+      "count": 68,
+      "percentage": 5.55,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 19,
+      "count": 87,
+      "percentage": 7.1,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 18,
+      "count": 110,
+      "percentage": 8.98,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 17,
+      "count": 108,
+      "percentage": 8.82,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 16,
+      "count": 118,
+      "percentage": 9.63,
+      "pairs_listed": true
+    },
+    {
+      "frequency": 15,
+      "count": 124,
+      "percentage": 10.12,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 14,
+      "count": 123,
+      "percentage": 10.04,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 13,
+      "count": 83,
+      "percentage": 6.78,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 12,
+      "count": 89,
+      "percentage": 7.27,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 11,
+      "count": 45,
+      "percentage": 3.67,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 10,
+      "count": 43,
+      "percentage": 3.51,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 9,
+      "count": 26,
+      "percentage": 2.12,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 8,
+      "count": 15,
+      "percentage": 1.22,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 7,
+      "count": 7,
+      "percentage": 0.57,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 6,
+      "count": 3,
+      "percentage": 0.24,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 5,
+      "count": 3,
+      "percentage": 0.24,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 4,
+      "count": 0,
+      "percentage": 0.0,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 3,
+      "count": 0,
+      "percentage": 0.0,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 2,
+      "count": 0,
+      "percentage": 0.0,
+      "pairs_listed": false
+    },
+    {
+      "frequency": 1,
+      "count": 0,
+      "percentage": 0.0,
+      "pairs_listed": true
+    }
+  ],
+  "scraped_at": "2026-08-31T20:20:04.177979+00:00",
+  "note": "Most common main number pairsThe table below lists all pairs of main numbers that have appeared more than three timesfifteen times in the Euro Millions.Freq      #   %age                           Pairs29       1   0.08%    04 23\n\n 28       7   0.57%    01 48    10 45    15 28    19 37    23 24    23 37\n                       39 44\n\n 27       6   0.49%    17 35    17 45    19 45    23 32    23 44    24 26\n\n 26      14   1.14%    03 50    04 14    05 25    06 09    11 13    11 29\n                       12 44    13 42    16 18    17 28    29 47    35 42\n                       35 44    44 50\n\n 25       7   0.57%    07 34    12 19    15 42    15 44    29 35    29 4842 4524      14   1.14%    02 19    02 45    04 16    06 10    10 19    10 23\n                       11 44    14 21    15 48    17 21    17 44    21 45\n                       25 45    26 49\n\n 23      28   2.29%    03 42    04 39    04 44    05 08    05 17    05 31\n                       05 37    06 24    08 24    09 13    09 39    10 31\n                       12 33    12 48    13 35    14 49    19 23    20 45\n                       23 30    24 49    26 50    27 39    27 42    28 48\n                       30 38    31 38    42 48    45 49\n\n 22      31   2.53%    01 04    01 11    01 18    03 10    03 43    04 21\n                       04 34    05 14    06 39    10 42    10 44    10 50\n                       13 24    14 16    14 19    15 35    16 44    19 21\n                       19 49    20 23    20 27    20 30    21 26    24 29\n                       25 41    25 44    27 46    29 37    36 42    38 42\n                       40 43\n\n 21      65   5.31%    01 42    02 10    03 49    04 17    04 27    04 43\n                       04 50    05 07    05 09    05 21    06 37    07 19\n                       07 20    07 21    07 26    07 3707 4507 50\n                       08 10    08 42    09 19    10 27    10 30    10 49\n                       12 38    12 45    13 14    13 17    14 29    14 50\n                       15 38    16 28    16 37    17 25    17 34    19 25\n                       19 34    19 38    20 21    20 35    20 42    21 30\n                       21 34    21 35    21 38    21 44    23 27    23 40\n                       24 35    24 46    25 30    25 38    25 50    27 41\n                       27 50    29 41    29 44    29 49    30 45    30 49\n                       32 36    36 37    37 42    38 43    39 50\n\n 20      68   5.55%    01 26    02 15    02 44    03 13    03 27    03 34\n                       05 33    05 38    05 42    05 47    06 29    06 41\n                       06 45    07 25    07 27    07 43    08 16    08 19\n                       08 27    09 21    09 30    09 37    10 29    10 33\n                       10 37    10 40    11 17    12 15    12 27    13 21\n                       13 26    13 29    14 44    14 48    15 16    15 41\n                       16 34    17 18    17 23    18 42    19 29    19 42\n                       20 41    20 44    21 36    22 49    23 49    25 28\n                       26 35    26 36    26 37    26 44    27 36    27 44\n                       29 33    29 39    29 40    30 44    31 33    31 42\n                       32 39    34 38    34 46    35 47    36 46    37 48\n                       42 47    45 48\n\n 19      87   7.10%    01 09    01 21    01 29    02 26    02 46    03 08\n                       03 12    03 15    03 25    03 32    05 19    05 40\n                       05 49    06 25    06 27    06 34    06 48    07 33\n                       07 39    07 40    08 11    08 15    08 49    08 50\n                       09 14    09 38    09 40    09 49    10 13    10 22\n                       11 30    12 17    12 26    12 37    13 37    13 49\n                       14 23    14 26    14 3614 4215 17    15 19\n                       15 25    15 49    16 17    16 23    16 26    16 31\n                       16 42    17 27    17 29    18 35    19 36    19 43\n                       19 44    20 26    20 50    21 32    22 44    23 26\n                       23 42    23 47    23 48    24 34    24 39    24 42\n                       25 26    25 37    25 39    25 40    26 30    26 34\n                       26 38    27 45    28 2928 4230 39    33 42\n                       34 47    35 45    37 39    37 44    37 49    38 45\n                       38 48    43 46    47 50\n\n 18     110   8.98%    01 10    01 45    02 28    02 36    02 38    02 42\n                       03 04    03 17    03 19    03 33    03 48    04 05\n                       04 07    04 10    05 24    05 35    06 12    06 23\n                       07 12    07 18    07 23    07 29    07 44    07 48\n                       08 18    08 25    08 33    08 34    08 47    09 17\n                       09 50    10 24    10 41    11 14    11 19    11 20\n                       11 28    11 35    11 37    11 47    11 50    12 29\n                       12 30    12 42    12 43    13 30    13 32    13 40\n                       13 44    13 47    13 50    14 34    14 35    14 3914 4515 23    15 40    15 45    15 50    16 20\n                       16 35    16 40    16 49    16 50    17 26    17 39\n                       17 42    18 20    18 31    18 39    18 44    19 20\n                       19 26    19 31    19 50    20 38    21 23    21 39\n                       22 23    22 27    23 31    23 34    23 50    24 27\n                       24 37    24 44    24 45    24 50    25 27    25 36\n                       26 32    26 33    27 29    27 3028 4529 30\n                       29 45    31 37    34 35    34 40    34 49    35 46\n                       36 38    37 45    38 40    42 49    43 44    44 48\n                       47 48    48 50\n\n 17     108   8.82%    01 17    01 23    01 50    02 24    02 32    02 35\n                       02 39    02 50    03 21    03 44    03 46    04 30\n                       04 31    04 37    04 38    05 15    05 41    05 44\n                       06 11    06 13    06 14    06 15    06 17    06 18\n                       06 19    06 42    06 5007 2807 32    08 17\n                       08 26    08 30    08 35    08 44    09 11    09 32\n                       09 35    09 43    10 12    10 15    10 20    10 28\n                       11 21    11 22    11 23    12 23    12 24    13 28\n                       13 33    13 39    14 25    15 29    16 36    16 39\n                       17 31    17 32    17 50    18 25    20 25    20 28\n                       20 29    20 40    20 43    20 48    21 27    21 46\n                       21 47    21 50    22 25    23 25    23 43    24 30\n                       25 49    26 27    26 40    27 43    27 49    28 30\n                       28 34    28 44    28 46    29 42    29 46    29 50\n                       30 36    30 46    31 34    31 50    32 34    32 48\n                       33 38    33 47    33 50    34 42    34 48    34 50\n                       35 37    35 41    35 49    36 45    36 49    37 40\n                       37 47    38 44    39 40    40 50    42 50    44 47\n\n 16     118   9.63%    01 06    01 08    01 15    01 19    01 25    01 33\n                       01 36    01 47    02 03    02 08    02 14    02 20\n                       02 21    02 27    02 34    03 29    03 31    04 20\n                       04 41    04 46    04 48    05 10    05 20    05 28\n                       05 29    05 30    06 16    06 30    06 38    07 08\n                       07 11    07 35    07 36    08 23    08 31    08 32\n                       09 15    09 25    09 41    10 14    10 17    10 21\n                       10 47    10 48    11 27    11 43    12 22    12 39\n                       12 47    12 49    13 15    13 34    14 24    14 2714 2814 41    14 46    16 29    16 30    16 32\n                       16 46    17 20    17 36    17 40    17 43    17 48\n                       18 19    18 43    19 46    19 47    19 48    20 31\n                       20 37    20 46    21 28    21 29    21 31    21 33\n                       21 40    21 48    21 49    22 48    23 35    23 38\n                       23 45    24 28    25 47    26 28    26 29    27 37\n                       28 37    28 47    28 49    29 34    30 32    30 43\n                       31 39    31 47    32 46    33 36    33 44    34 37\n                       34 39    35 43    36 41    36 47    37 41    38 41\n                       38 49    38 50    39 46    39 47    39 48    40 41\n                       40 42    41 42    42 43    42 46\n\n 15     124  10.12%\n\n 14     123  10.04%\n\n 13      83   6.78%\n\n 12      89   7.27%\n\n 11      45   3.67%\n\n 10      43   3.51%\n\n  9      26   2.12%\n\n  8      15   1.22%\n\n  7       7   0.57%\n\n  6       3   0.24%\n\n  5       3   0.24%\n\n  4       0   0.00%\n\n  3       0   0.00%\n\n  2       0   0.00%\n\n  1       0   0.00%Tot  1,225 100.00%Notes:The appearance figures shown aboveexcludeLucky Star numbers.All main number pairs have now appeared in at least one draw.Pairs that appeared in thelatest lottery(#1976)\nare highlighted in bold.\u00a9Richard K. Lloyd&\u00a0Connect Internet Solutions Limited\u00a02026Disclaimer- This is an unofficial UK lottery siteAuto-generatedat 11.58pm BST on Friday 28th August 2026",
+  "source_url": "https://lottery.merseyworld.com/Euro/Analysis/Pairs.html"
+}
