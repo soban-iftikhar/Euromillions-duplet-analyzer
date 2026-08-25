@@ -1,3 +1,4 @@
+import json
 import os
 from itertools import combinations
 from typing import Optional
@@ -12,6 +13,7 @@ from scraper import scrape_pairs, PairRecord, FrequencyBand
 app = FastAPI(title="EuroMillions Duplet Analyzer")
 
 IMPORT_SECRET = os.environ.get("IMPORT_SECRET")
+SEED_PATH = os.path.join(os.path.dirname(__file__), "seed_data.json")
 
 # Allow the frontend (any origin, since this is a tiny 1-2 user internal tool).
 # Tighten this to your actual Vercel URL if you want it locked down.
@@ -23,6 +25,43 @@ app.add_middleware(
 )
 
 database.init_db()
+
+
+def _seed_from_file_if_needed():
+    """
+    Render's free-tier disk is ephemeral: it resets on every restart/redeploy
+    (including the idle spin-down/wake-up cycle). Data written at runtime via
+    /api/import or /api/scrape does NOT survive that. seed_data.json, on the
+    other hand, is a normal file committed to the repo, so it's part of every
+    deploy and reloads automatically here on every cold start — that's what
+    actually persists data across restarts on the free tier.
+    """
+    meta = database.get_meta()
+    if meta.get("last_scraped"):
+        return  # already has data (e.g. from /api/import in this same run)
+
+    if not os.path.exists(SEED_PATH):
+        return
+
+    with open(SEED_PATH) as f:
+        data = json.load(f)
+
+    pairs = [PairRecord(p["num1"], p["num2"], p["frequency"]) for p in data["pairs"]]
+    bands = [
+        FrequencyBand(b["frequency"], b["count"], b["percentage"], b["pairs_listed"])
+        for b in data["bands"]
+    ]
+    database.save_scrape(
+        pairs=pairs,
+        bands=bands,
+        scraped_at=data["scraped_at"],
+        note=data.get("note"),
+        source_url=data.get("source_url"),
+    )
+    print(f"[startup] Seeded database from {SEED_PATH}: {len(pairs)} pairs")
+
+
+_seed_from_file_if_needed()
 
 
 class AnalyzeRequest(BaseModel):
@@ -97,9 +136,12 @@ def scrape():
 @app.post("/api/import")
 def import_data(req: ImportRequest):
     """
-    Accepts pre-scraped data (produced locally, e.g. via scripts/local_scrape_and_push.py)
-    and stores it. Exists because the live site blocks requests from most cloud hosting
-    IP ranges, so scraping directly from the deployed backend often isn't possible.
+    Accepts pre-scraped data and stores it directly to the running instance's
+    database. NOTE: like /api/scrape, this only persists until the next
+    restart — Render's free-tier disk is ephemeral. For data that survives
+    restarts, use scripts/local_scrape_and_seed.py to update seed_data.json
+    and commit it (see README). This endpoint is kept as a way to push an
+    instant update without waiting for a git push + redeploy.
     """
     if not IMPORT_SECRET:
         raise HTTPException(
@@ -142,7 +184,8 @@ def analyze(req: AnalyzeRequest):
     if not meta.get("last_scraped"):
         raise HTTPException(
             status_code=400,
-            detail="No historical data available yet. Run a scrape first (use the Refresh button).",
+            detail="No historical data has been loaded yet. Run scripts/local_scrape_and_push.py "
+            "from your own machine to populate it (see README).",
         )
 
     numbers = sorted(set(req.numbers))
