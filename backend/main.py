@@ -1,5 +1,7 @@
 from itertools import combinations
 from typing import Optional
+import os
+import uvicorn
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -109,3 +111,7 @@ def analyze(req: AnalyzeRequest):
             "pair_count": int(meta.get("pair_count", 0)),
         },
     }
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
