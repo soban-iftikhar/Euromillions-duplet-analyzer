@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.panel h2 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+#status-box {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  margin-bottom: 12px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 0;
+}
+
+.radio-group input {
+  margin: 0;
+}
+
+button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 9px 16px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #111;
+}
+
+button:disabled {
+  background: #999;
+  cursor: default;
+}
+
+.error {
+  color: #b00020;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.results-columns {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.results-col {
+  flex: 1;
+  min-width: 240px;
+}
+
+.results-col h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+th {
+  background: #eee;
+}
+
+tr.highlight {
+  background: #fff8dc;
+}
+
+.note {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+}
