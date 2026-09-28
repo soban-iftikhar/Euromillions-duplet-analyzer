@@ -5,7 +5,10 @@ const analyzeBtn = document.getElementById("analyze-btn");
 const errorBox = document.getElementById("error-box");
 const receiptSection = document.getElementById("receipt");
 const receiptSummary = document.getElementById("receipt-summary");
-const receiptList = document.getElementById("receipt-list");
+const matchedSection = document.getElementById("matched-section");
+const matchedList = document.getElementById("matched-list");
+const unmatchedSection = document.getElementById("unmatched-section");
+const unmatchedList = document.getElementById("unmatched-list");
 const receiptFootnote = document.getElementById("receipt-footnote");
 const receiptPlaceholder = document.getElementById("receipt-placeholder");
 
@@ -105,7 +108,12 @@ function renderResults(data) {
   receiptSummary.innerHTML =
     `<strong>${data.matched_pairs.length}</strong> of <strong>${data.generated_pairs.length}</strong> pairs found in historical data`;
 
-  receiptList.innerHTML = "";
+  matchedList.innerHTML = "";
+  unmatchedList.innerHTML = "";
+  
+  let hasMatched = false;
+  let hasUnmatched = false;
+
   data.generated_pairs.forEach(({ pair }) => {
     const key = `${pair[0]}-${pair[1]}`;
     const freq = matchedLookup.get(key);
@@ -122,8 +130,18 @@ function renderResults(data) {
       <div class="leader"></div>
       <div class="count">${isMatch ? freq + "&times;" : "&mdash;"}</div>
     `;
-    receiptList.appendChild(row);
+    
+    if (isMatch) {
+      matchedList.appendChild(row);
+      hasMatched = true;
+    } else {
+      unmatchedList.appendChild(row);
+      hasUnmatched = true;
+    }
   });
+
+  matchedSection.hidden = !hasMatched;
+  unmatchedSection.hidden = !hasUnmatched;
 
   const notes = [];
   if (data.unmatched_pairs.length > 0) {

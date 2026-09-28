@@ -20,7 +20,7 @@
 
 <main class="page">
   <div class="ticket" id="ticket">
-
+    
     <header class="ticket-head">
       <div class="badge-spin" aria-hidden="true">
         <svg viewBox="0 0 100 100" class="badge-svg">
@@ -60,7 +60,17 @@
 
     <section class="receipt" id="receipt" hidden>
       <div class="receipt-summary" id="receipt-summary"></div>
-      <div class="receipt-list" id="receipt-list"></div>
+      
+      <div class="receipt-section" id="matched-section" hidden>
+        <h3 class="receipt-section-title">Matched Pairs</h3>
+        <div class="receipt-list" id="matched-list"></div>
+      </div>
+
+      <details class="receipt-section" id="unmatched-section" hidden>
+        <summary class="receipt-section-title collapsible-title">Unmatched Pairs (Click to expand)</summary>
+        <div class="receipt-list" id="unmatched-list"></div>
+      </details>
+
       <p class="receipt-footnote" id="receipt-footnote"></p>
     </section>
 
