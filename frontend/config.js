@@ -1,3 +1,4 @@
-// Point this at your deployed backend (Render) URL.
-// While testing locally with `uvicorn main:app --reload`, this default works.
-const API_BASE_URL = "https://euromillions-duplet-analyzer.onrender.com";
+// Use local backend when running on localhost, otherwise use the deployed Render URL
+const API_BASE_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" 
+  ? "http://localhost:8000" 
+  : "https://euromillions-duplet-analyzer.onrender.com";
